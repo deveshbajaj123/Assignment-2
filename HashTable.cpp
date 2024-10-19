@@ -95,7 +95,7 @@ public:
 
     
     void printTable() const {
-        std::cout << "HashTable: ";
+        
         for (int i = 0; i < capacity; i++) {
             if (table[i] != -1 && !deleted[i]) {
                 std::cout << table[i] << " ";
